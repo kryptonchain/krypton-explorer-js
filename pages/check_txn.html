@@ -7,12 +7,13 @@
     </div>
 
     <div class="row">
-        <label for="private_key">Private Key     
-    	    <span>
-		<div class="radio-inline"><label><input type="radio" name="keyType" value="txn" checked>TXN Key</label></div>
-		<div class="radio-inline"><label><input type="radio" name="keyType" value="view">View Key</label></div>
-	    </span>
-	</label>
+        <label for="private_key">Private Key
+            <span>
+                <div class="radio-inline"><label><input type="radio" name="keyType" value="txn" checked>TXN Key</label>
+                </div>
+                <div class="radio-inline"><label><input type="radio" name="keyType" value="view">View Key</label></div>
+            </span>
+        </label>
         <input class="form-control" placeholder="64 char private view or txn key" id="private_key">
 
 
@@ -20,7 +21,7 @@
 
     <div class="row">
         <label for="public_address">Recipient Public Address</label>
-        <input class="form-control" placeholder="99 char public TRTL address" id="public_address">
+        <input class="form-control" placeholder="98 char public ZOD address" id="public_address">
 
     </div>
 
@@ -35,10 +36,10 @@
 <div class="table-responsive">
     <table class="table table-hover">
         <thead>
-        <tr>
-            <th><i class="fa fa-money"></i> Amount</th>
-            <th><i class="fa fa-key"></i> Key</th>
-        </tr>
+            <tr>
+                <th><i class="fa fa-money"></i> Amount</th>
+                <th><i class="fa fa-key"></i> Key</th>
+            </tr>
         </thead>
         <tbody id="outputs_rows">
         </tbody>
@@ -50,8 +51,8 @@
 <script src="js/check_txn.js" type="text/javascript"></script>
 <script>
     currentPage = {
-        destroy: function(){},
-        init: function(){},
-        update: function(){}
+        destroy: function () { },
+        init: function () { },
+        update: function () { }
     };
 </script>

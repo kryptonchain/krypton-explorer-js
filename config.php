@@ -1,6 +1,6 @@
 <?php
 return array(
-        'api' => 'http://127.0.0.1:11898',
-        'blockTargetInterval' => 30,
-        'coinUnits' => 100
+    'api' => 'http://explorer.kryptonchain.org:12888',
+    'blockTargetInterval' => 60,
+    'coinUnits' => 1000000
 );
