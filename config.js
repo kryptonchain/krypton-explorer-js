@@ -9,7 +9,8 @@ var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
     "zod": [
-        ["public.kryptonchain.org", "https://public.kryptonchain.org/api"]
+        ["public.kryptonchain.org", "https://public.kryptonchain.org/api"],
+        ["zod.envypool.com", "http://zod.envypool.com:8117"]
     ]
 };
 
